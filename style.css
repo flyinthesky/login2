@@ -46,12 +46,13 @@ form:after {
 	visibility: hidden;
 }
 .container {
-	overflow-y: scroll;
-    overflow:hidden;
+	overflow-y: hidden;
     overflow-x: hidden;
 	height: 100%;
     position:fixed;
 	float: inherit;
+    margin-left: 460px;
+    margin-right:460px;
     }
 #content {
 	background: #FF0000;
