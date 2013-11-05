@@ -46,12 +46,13 @@ form:after {
 	visibility: hidden;
 }
 .container {
-    width: 500px;
 	overflow-y: scroll;
     overflow:hidden;
+    overflow-x: hidden;
 	height: 100%;
-    position:center;
-	float: inherit;}
+    position:fixed;
+	float: inherit;
+    }
 #content {
 	background: #FF0000;
 	background: -moz-linear-gradient(top,  rgba(248,0,0,1) 0%, rgba(248,0,0,1) 100%);
