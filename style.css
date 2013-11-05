@@ -45,7 +45,7 @@ form:after {
 	clear: both;
 	visibility: hidden;
 }
-.container { position: center;}
+.container { position: fixed; width: 400px}
 #content {
 	background: #FF0000;
 	background: -moz-linear-gradient(top,  rgba(248,0,0,1) 0%, rgba(248,0,0,1) 100%);
