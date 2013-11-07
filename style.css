@@ -52,7 +52,7 @@ box-sizing: border-box;
     }
 #content
  {
-	background: #FF0000;
+   
 	background: -moz-linear-gradient(top,  rgba(248,0,0,1) 0%, rgba(150,0,0,1) 100%);
 	background: -webkit-linear-gradient(top,  rgba(248,0,0,1) 0%,rgba(150,0,0,1) 100%);
 	background: -o-linear-gradient(top,  rgba(248,0,0,1) 0%,rgba(150,0,0,1) 100%);
