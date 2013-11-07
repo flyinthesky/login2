@@ -48,6 +48,7 @@ form:after {
 .container {
 	overflow-y: hidden;
     overflow-x: hidden;
+
     position:fixed;
 	float: inherit;
     }
@@ -142,16 +143,16 @@ form:after {
 	float: left;
 	font: bold 15px Helvetica, Arial, sans-serif;
 	height: 35px;
-	margin: 20px 50px 35px 15px;
+	margin: 20px 15px 0 0;
 	position: relative;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+
 	width: 120px;
 }
 #content form div a {
 	color: #FFFFFF;
     float: right;
     font-size: 12px;
-    margin: 30px 15px 0 0;
+    margin: 30px 15px 25px 0;
     position: relative;
 }
 
