@@ -48,11 +48,8 @@ form:after {
 .container {
 	overflow-y: hidden;
     overflow-x: hidden;
-	height: 100%;
     position:fixed;
 	float: inherit;
-    margin-left: 460px;
-    margin-right:460px;
     }
 #content {
 	background: #FF0000;
@@ -136,13 +133,7 @@ form:after {
 #username { background-position: 10px 10px !important }
 #password { background-position: 10px -53px !important }
 #content form input[type="submit"] {
-	background: rgb(254,231,154);
-	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
-	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
-	-webkit-border-radius: 30px;
+
 	border-radius: 30px;
 
 	border: 1px solid #D69E31;
@@ -157,7 +148,7 @@ form:after {
 	width: 120px;
 }
 #content form div a {
-	color: #000000;
+	color: #FFFFFF;
     float: right;
     font-size: 12px;
     margin: 30px 15px 0 0;
